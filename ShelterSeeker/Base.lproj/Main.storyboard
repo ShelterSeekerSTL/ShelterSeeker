@@ -570,6 +570,14 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RSK-5A-RLB">
+                                        <rect key="frame" x="269" y="81" width="79" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="DONATE">
+                                            <color key="titleColor" red="0.98893742220000003" green="1" blue="0.97341106150000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.83603869819999999" green="0.83603869819999999" blue="0.83603869819999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
@@ -612,8 +620,16 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AHP-tO-3ws">
+                                        <rect key="frame" x="275" y="84" width="79" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="DONATE">
+                                            <color key="titleColor" red="0.98893742220000003" green="1" blue="0.97341106150000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                    </button>
                                     <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="$$" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iVK-5c-0Pi">
-                                        <rect key="frame" x="257" y="46" width="97" height="30"/>
+                                        <rect key="frame" x="257" y="39" width="97" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -661,8 +677,16 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uiD-YN-6WU">
+                                        <rect key="frame" x="272" y="84" width="79" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="DONATE">
+                                            <color key="titleColor" red="0.98893742220000003" green="1" blue="0.97341106150000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                    </button>
                                     <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="$$" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uSa-Ay-l0L">
-                                        <rect key="frame" x="254" y="29" width="97" height="30"/>
+                                        <rect key="frame" x="254" y="39" width="97" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -710,8 +734,16 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L3r-FA-6e3">
+                                        <rect key="frame" x="274" y="83" width="79" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="DONATE">
+                                            <color key="titleColor" red="0.98893742220000003" green="1" blue="0.97341106150000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                    </button>
                                     <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="$$" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7ug-49-kMB">
-                                        <rect key="frame" x="256" y="27" width="97" height="30"/>
+                                        <rect key="frame" x="256" y="38" width="97" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -914,10 +946,9 @@ to homelessness </string>
         <image name="info" width="186" height="174"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="1qg-d6-jSZ"/>
         <segue reference="1Le-wh-mwn"/>
         <segue reference="VRl-vW-QOQ"/>
-        <segue reference="Mf8-PK-jJD"/>
+        <segue reference="GUR-aP-ls2"/>
         <segue reference="Ld1-V4-0pJ"/>
     </inferredMetricsTieBreakers>
 </document>
