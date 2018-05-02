@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		299F32D420997D31006332FF /* Default@x2.png in Resources */ = {isa = PBXBuildFile; fileRef = 299F32D220997D30006332FF /* Default@x2.png */; };
+		299F32D520997D31006332FF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 299F32D320997D30006332FF /* Default.png */; };
 		29B2F1252088459200CAD29D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B2F1242088459200CAD29D /* AppDelegate.swift */; };
 		29B2F1272088459200CAD29D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B2F1262088459200CAD29D /* ViewController.swift */; };
 		29B2F12A2088459200CAD29D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29B2F1282088459200CAD29D /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		299F32D220997D30006332FF /* Default@x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@x2.png"; path = "../../../Downloads/Default@x2.png"; sourceTree = "<group>"; };
+		299F32D320997D30006332FF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../../../Downloads/Default.png; sourceTree = "<group>"; };
 		29B2F1212088459200CAD29D /* ShelterSeeker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShelterSeeker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B2F1242088459200CAD29D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29B2F1262088459200CAD29D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +81,8 @@
 		29B2F1182088459200CAD29D = {
 			isa = PBXGroup;
 			children = (
+				299F32D320997D30006332FF /* Default.png */,
+				299F32D220997D30006332FF /* Default@x2.png */,
 				29B2F1232088459200CAD29D /* ShelterSeeker */,
 				29B2F1382088459300CAD29D /* ShelterSeekerTests */,
 				29B2F1432088459300CAD29D /* ShelterSeekerUITests */,
@@ -232,9 +238,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				299F32D420997D31006332FF /* Default@x2.png in Resources */,
 				29B2F12F2088459200CAD29D /* LaunchScreen.storyboard in Resources */,
 				29B2F12C2088459200CAD29D /* Assets.xcassets in Resources */,
 				29B2F12A2088459200CAD29D /* Main.storyboard in Resources */,
+				299F32D520997D31006332FF /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
